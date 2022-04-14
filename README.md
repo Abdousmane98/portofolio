@@ -1,2 +1,2 @@
-# portofolio
-portofolio repository
+#hello 
+it's my first repository on github
