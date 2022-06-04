@@ -163,7 +163,7 @@ margin-left: 15%;
 }
 
 
-@media all and (max-width: 500px) {
+@media screen and (max-width: 500px) {
 
 .navbar {
     display: flex;
@@ -178,6 +178,7 @@ margin-left: 15%;
 
 }
 .image {
+    padding: 3%;
     display: block;
     text-align: center;
     margin: auto;
