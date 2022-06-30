@@ -1,10 +1,9 @@
-// variables
-let mainaccount= 'abdou';
-let othersaccount= 'ousmane';
+(function () {
+    alert ('Bienvenue')
+})
+();
 
-let temp= mainaccount;
-mainaccount= othersaccount;
-othersaccount= temp;
-
-console.log('mainaccount');
-console.log('othersaccount');
+let sendButton=document.getElementById ('send')
+sendButton=addEventListener ('click', function (){
+    alert('vous etes sure de vouloir envoyez?')
+})

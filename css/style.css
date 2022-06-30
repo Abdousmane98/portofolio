@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=PT+Serif:ital@1&family=Work+Sans:ital,wght@1,200&display=swap');
 body {
+    background: rgb(228, 185, 185);
    padding: 0%;
    margin: 0;
-    background: rgba(66, 62, 55, 0.267);
+    
     font-family: 'Amiri', serif;
     font-family: 'PT Serif', serif;
 }
@@ -144,6 +145,7 @@ margin-left: 15%;
     left: 50%;
     width: 32%;
     border-bottom: 5px solid gray;
+    color: orangered;
     
 }
 .media{
@@ -161,8 +163,89 @@ margin-left: 15%;
     left: 0%;
     bottom: 180%;
 }
+.project{
+    
+    text-align: center; 
+    color: orangered; 
+    
+}
+.project img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 40px 40px;
 
+}
+.project ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+.project ul li{
+    margin-right: 30px;
+}
+.cv{
+    text-align: center;
+}
+.skills{
+    margin-bottom: 20px;
+}
+.skills ul{
+         list-style-type: none;
+         display: inline-flex;
+         backgro
+}
+.skills ul li{
+    margin-right: 20px;
+}
+footer{
+    background-color: rgb(233, 208, 208);
+    text-align: center;
+}
+.pied ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+.pied ul li{
+    margin-right: 10px;
+}
 
+@media (max-width: 1200px) {
+    html {
+      font-size: 55%;
+    }
+    
+    }
+    @media (max-width: 768px) {
+        .heading {
+          font-size: 12vw;
+        }
+        .navbar a i {
+          padding: 0;
+        }
+        .navbar a span {
+          display: none;
+        }
+        .navbar a:hover {
+          padding-bottom: 2rem;
+        }
+        .home {
+          text-align: center;
+          gap: 2rem;
+        }
+        .home .image img {
+          height: 30rem;
+          width: 30rem;
+        }
+        .home .content h3 {
+          font-size: 3rem;
+        }
+        .home .content span {
+          font-size: 2.5rem;
+        }
+        .contact .row form .inputBox input {
+          width: 100%;
+          margin-bottom: 1rem;
+        }
+      }
 @media screen and (max-width: 500px) {
 
 .navbar {
@@ -259,6 +342,7 @@ margin-left: 15%;
      text-align: center;   
     }
     .about{
+        display: inline-block;
         font-size: 20px;
         text-align: center;
         position: relative;
