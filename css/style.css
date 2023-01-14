@@ -206,6 +206,12 @@ footer{
 
     .content{
         flex-direction: column;
-    }
+        width: 100%;
+        
+    }   
+   .content .profil{
+        width: 100%;
+        height: 100%;
+    } 
 }
     
